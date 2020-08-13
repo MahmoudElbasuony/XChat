@@ -1,0 +1,18 @@
+﻿@implements IDisposable
+<div class="card">
+    <div class="card-body">
+
+        <EditForm EditContext=_editContext class="form-inline  d-flex align-items-start"  OnValidSubmit="_OnChatRoomCreate">
+            <DataAnnotationsValidator />
+            <div class="form-group col-9">
+                <label for="chat-room-name" class="sr-only">Room Name</label>
+                <InputText id="chat-room-name"  @bind-Value=_addChatRoomDto.RoomName  class="form-control col-12" placeholder="Chat Room Name"></InputText>
+                <ValidationMessage  For="@(()=> _addChatRoomDto.RoomName)" />
+            </div>
+            <div class="col-3">
+                <button type="submit" disabled=@_isFormInvalid class="btn btn-primary mb-2 float-right">Create Room</button>
+            </div>
+        </EditForm>
+
+    </div>
+</div>

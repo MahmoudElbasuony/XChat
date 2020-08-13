@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XChat", "XChat.csproj", "{4696747B-1D49-44B4-93DB-1010AE33FBF9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4696747B-1D49-44B4-93DB-1010AE33FBF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4696747B-1D49-44B4-93DB-1010AE33FBF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4696747B-1D49-44B4-93DB-1010AE33FBF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4696747B-1D49-44B4-93DB-1010AE33FBF9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D8FE3AD3-E40C-43C6-AD94-CBE167FD7272}
+	EndGlobalSection
+EndGlobal

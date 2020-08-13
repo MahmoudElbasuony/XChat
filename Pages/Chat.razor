@@ -1,0 +1,24 @@
+﻿@page "/Chat"
+@inject IJSRuntime _jsRuntime
+
+<div class="card mt-4" >
+    <div class="card-body">
+        <h5 class="card-title">Open Chat</h5>
+        <AddChatRoom OnChatRoomCreate="_OnChatRoomCreate" />
+        <button @onclick="_OnBackToHomeClicked" class="btn btn-primary mt-3">Back To Home</button>
+    </div>
+</div>
+<br />
+<div class="card mt-4">
+    <div class="card-body">
+        <h5 class="card-title">Rooms</h5>
+        <div class="col-12 d-flex flex-sm-column flex-md-row flex-wrap">
+            @foreach (var room in _chatRooms)
+            {
+                <ChatRoom @key="room" Room="room" />
+            }
+        </div>
+    </div>
+</div>
+
+

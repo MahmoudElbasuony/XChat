@@ -1,0 +1,22 @@
+﻿@import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
+
+html, body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#blazor-error-ui {
+    display: none;
+}
+
+#welcome-message-container {
+    height: 50vh;
+}
+
+#app-body{
+
+}
+.validation-message {
+    color: #ff6565;
+    display: block;
+    margin-top: 0.5em;
+}
