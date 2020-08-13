@@ -352,6 +352,11 @@ C:\Users\melbasuony\Desktop\XChat\obj\Debug\netstandard2.1\RazorDeclaration\Comp
 C:\Users\melbasuony\Desktop\XChat\obj\Debug\netstandard2.1\Razor\Components\Chat\AddChatRoom\AddChatRoom.razor.g.cs
 C:\Users\melbasuony\Desktop\XChat\obj\Debug\netstandard2.1\RazorDeclaration\Components\Chat\ChatRoom\ChatRoom.razor.g.cs
 C:\Users\melbasuony\Desktop\XChat\obj\Debug\netstandard2.1\Razor\Components\Chat\ChatRoom\ChatRoom.razor.g.cs
-C:\Users\melbasuony\Desktop\XChat\obj\Debug\netstandard2.1\integrity\S5WcvnIzj_OH7PkKEeknk8ogFfcJXIs1pRDOhy-Xusw=.hash
-C:\Users\melbasuony\Desktop\XChat\obj\Debug\netstandard2.1\integrity\S-qDG5wnruo9clttJamYLby6BrWu68ntzHzjfjRG-_8=.hash
-C:\Users\melbasuony\Desktop\XChat\obj\Debug\netstandard2.1\integrity\oWli8WqBHHtg_KKQw3FJmlShDTTSGZXOOHHkwyeSGq4=.hash
+C:\Users\melbasuony\Desktop\XChat\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\System.Net.Http.Json.dll
+C:\Users\melbasuony\Desktop\XChat\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\System.Net.Http.Json.dll.gz
+C:\Users\melbasuony\Desktop\XChat\obj\Debug\netstandard2.1\integrity\99dseBOagY3mzu5Y8Eqm8gRI_o8QbbCp7R2Ew9bQ_5E=.hash
+C:\Users\melbasuony\Desktop\XChat\obj\Debug\netstandard2.1\compressed\_framework\_bin\System.Net.Http.Json.dll.gz
+C:\Users\melbasuony\Desktop\XChat\obj\Debug\netstandard2.1\compressed\_framework\_bin\System.Net.Http.Json.dll.br
+C:\Users\melbasuony\Desktop\XChat\obj\Debug\netstandard2.1\integrity\KDSv7LTpbP2iCk9dd6XmqLnqnv0quyE3n9CqTqwAu20=.hash
+C:\Users\melbasuony\Desktop\XChat\obj\Debug\netstandard2.1\integrity\YgYfssZ4PyfM80Fl7EjlgVy13F5e3MAsJrgjhMlTb6s=.hash
+C:\Users\melbasuony\Desktop\XChat\obj\Debug\netstandard2.1\integrity\8dEkNaaXCY90iGEs6npnMg_IFzfaE5s-ua_vldpmIOE=.hash

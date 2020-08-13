@@ -4,6 +4,10 @@ using Microsoft.AspNetCore.Components.Web;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
+using System.Net.Http.Json;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 using XChat.Extentions;
 using XChat.Models.Chat;
@@ -16,6 +20,8 @@ namespace XChat.Pages
 
         [Inject]
         private NavigationManager _navigator { get; set; }
+        [Inject]
+        private HttpClient _http { get; set; }
 
         private List<ChatRoomDto> _chatRooms { get; set; }
 
@@ -28,6 +34,10 @@ namespace XChat.Pages
         {
             base.OnInitialized();
             _jsRuntime.SetPageTitle(Page_Title);
+        }
+        protected override async Task OnInitializedAsync()
+        {
+            _chatRooms = (await _http.GetFromJsonAsync<ChatRoomDto[]>("api/chatroom")).ToList();
         }
 
         private void _OnChatRoomCreate(AddChatRoomDto addChatRoomDto)
@@ -45,5 +55,7 @@ namespace XChat.Pages
         {
             _navigator?.NavigateTo("/");
         }
+
+         
     }
 }

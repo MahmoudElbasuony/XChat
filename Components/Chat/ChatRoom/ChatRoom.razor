@@ -1,11 +1,22 @@
 ﻿<div class="card text-white @(Room.StyleClass ?? "bg-secondary") mb-3 mx-2" style="width: calc(100% * (1/4) - 10px - 1px); flex-grow: 1;">
     <div class="card-header">@Room.Name</div>
-    <div class="card-body">
-        <div class="col-12">
-            Msgs go here
-        </div>
+    <div class="card-body " style="max-height: 14em; overflow-y: auto;">
+        <ul class="col-12 list-group">
+            @foreach (var msg in _roomMessages)
+            {
+                <li class="list-group-item">
+                    <i class="badge badge-info">@msg</i>
+                </li>
+            }
+            @if (_roomMessages.Count == 0)
+            {
+                <li class="list-group-item">
+                    <i class="badge badge-info">No Messages</i>
+                </li>
+            }
+        </ul>
     </div>
     <div class="card-footer">
-        <input type="text" class="form-control"/>
+        <input type="text" @bind=_message @bind:event="oninput" class="form-control" @onkeypress="_OnSendMessage" />
     </div>
 </div>
