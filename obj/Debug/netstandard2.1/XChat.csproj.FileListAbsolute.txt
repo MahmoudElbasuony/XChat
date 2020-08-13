@@ -352,6 +352,6 @@ C:\Users\melbasuony\Desktop\XChat\obj\Debug\netstandard2.1\RazorDeclaration\Comp
 C:\Users\melbasuony\Desktop\XChat\obj\Debug\netstandard2.1\Razor\Components\Chat\AddChatRoom\AddChatRoom.razor.g.cs
 C:\Users\melbasuony\Desktop\XChat\obj\Debug\netstandard2.1\RazorDeclaration\Components\Chat\ChatRoom\ChatRoom.razor.g.cs
 C:\Users\melbasuony\Desktop\XChat\obj\Debug\netstandard2.1\Razor\Components\Chat\ChatRoom\ChatRoom.razor.g.cs
-C:\Users\melbasuony\Desktop\XChat\obj\Debug\netstandard2.1\integrity\iEBIOSzBJQQ-Kt91BH-nk5Qay53KFAQ_404hvvejZzg=.hash
-C:\Users\melbasuony\Desktop\XChat\obj\Debug\netstandard2.1\integrity\Y6S5kg7FC1isSXBC2oRe4LgtiKvFBX7FT2p5JjpawpM=.hash
-C:\Users\melbasuony\Desktop\XChat\obj\Debug\netstandard2.1\integrity\kJT47kvS92oZwi4ddAgMC9iZ-RLnFT5jKwl54VoSQYs=.hash
+C:\Users\melbasuony\Desktop\XChat\obj\Debug\netstandard2.1\integrity\S5WcvnIzj_OH7PkKEeknk8ogFfcJXIs1pRDOhy-Xusw=.hash
+C:\Users\melbasuony\Desktop\XChat\obj\Debug\netstandard2.1\integrity\S-qDG5wnruo9clttJamYLby6BrWu68ntzHzjfjRG-_8=.hash
+C:\Users\melbasuony\Desktop\XChat\obj\Debug\netstandard2.1\integrity\oWli8WqBHHtg_KKQw3FJmlShDTTSGZXOOHHkwyeSGq4=.hash

@@ -1,7 +1,7 @@
 ﻿@page "/Chat"
 @inject IJSRuntime _jsRuntime
 
-<div class="card mt-4" >
+<div class="card mt-4">
     <div class="card-body">
         <h5 class="card-title">Open Chat</h5>
         <AddChatRoom OnChatRoomCreate="_OnChatRoomCreate" />
@@ -12,7 +12,7 @@
 <div class="card mt-4">
     <div class="card-body">
         <h5 class="card-title">Rooms</h5>
-        <div class="col-12 d-flex flex-sm-column flex-md-row flex-wrap">
+        <div class="col-12 d-flex flex-sm-column flex-md-row flex-wrap-reverse">
             @foreach (var room in _chatRooms)
             {
                 <ChatRoom @key="room" Room="room" />

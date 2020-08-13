@@ -39,10 +39,10 @@ namespace XChat.Components.Chat.AddChatRoom
         {
             _addChatRoomDto.StyleClass = _GetRandomChatRoomStyleClass();
             OnChatRoomCreate.InvokeAsync(_addChatRoomDto);
+            _addChatRoomDto.RoomName = string.Empty;
         }
         private void _OnAddRoomFormFieldChanged(object sender, FieldChangedEventArgs e)
         {
-            Console.WriteLine("Changed");
             _isFormInvalid = !_editContext.Validate();
             StateHasChanged();
         }

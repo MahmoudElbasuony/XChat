@@ -6,7 +6,7 @@
   "linkerEnabled": false,
   "resources": {
     "assembly": {
-      "XChat.dll": "sha256-iEBIOSzBJQQ\/Kt91BH\/nk5Qay53KFAQ+404hvvejZzg=",
+      "XChat.dll": "sha256-S5WcvnIzj+OH7PkKEeknk8ogFfcJXIs1pRDOhy\/Xusw=",
       "Microsoft.Extensions.DependencyInjection.Abstractions.dll": "sha256-ycn\/UHLnjC77BNvsurP4mkuYP8oud1oVyfSSlZKMymc=",
       "netstandard.dll": "sha256-\/zcPVM75OAY+joGVM8yIC1gO1SFYWP1CFERgQ8PJkfA=",
       "System.Xml.Linq.dll": "sha256-IPbQMdJxZXdk8HTlaPyXdQ6Zb82iZLphnM74yO4EURQ=",
@@ -59,7 +59,7 @@
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-dwm+rKImjhxtOmHHVpSxOgl2oh2R26xOWihLaZSv7Vs="
     },
     "pdb": {
-      "XChat.pdb": "sha256-Y6S5kg7FC1isSXBC2oRe4LgtiKvFBX7FT2p5JjpawpM="
+      "XChat.pdb": "sha256-S\/qDG5wnruo9clttJamYLby6BrWu68ntzHzjfjRG\/+8="
     },
     "runtime": {
       "dotnet.3.2.0.js": "sha256-mPoqx7XczFHBWk3gRNn0hc9ekG1OvkKY4XiKRY5Mj5U=",
