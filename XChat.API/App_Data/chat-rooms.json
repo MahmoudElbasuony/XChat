@@ -1,0 +1,22 @@
+[
+  {
+    "Id": "2e268825-4608-4d02-838f-24fc14901ea6",
+    "Name": "Room1",
+    "StyleClass": "bg-primary"
+  },
+  {
+    "Id": "2e268826-4608-4d02-838f-24fc14901ea6",
+    "Name": "Room2",
+    "StyleClass": "bg-danger"
+  },
+  {
+    "Id": "2e268827-4608-4d02-838f-24fc14901ea6",
+    "Name": "Room3",
+    "StyleClass": "bg-warning"
+  },
+  {
+    "Id": "2e268828-4608-4d02-838f-24fc14901ea6",
+    "Name": "Room4",
+    "StyleClass": "bg-dark"
+  }
+]
